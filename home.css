@@ -43,6 +43,22 @@ a:visited {
     color: #008800;
 }
 
+/* https://stackoverflow.com/questions/19695784/how-can-i-make-bootstrap-columns-all-the-same-height/22892773 */
+@media (min-width: 768px) {
+  .row.equal {
+    display: flex;
+    display: -webkit-flex;
+    flex-wrap: wrap;
+  }
+}
+
+.thumbnail {
+    height: 95%;
+    box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5),
+                0px 8px 13px rgba(0, 0, 0, 0.2),
+                0px 18px 23px rgba(0, 0, 0, 0.2);
+}
+
 .hometext {
     padding-top: 20%;
     position: relative;
