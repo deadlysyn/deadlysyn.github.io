@@ -46,15 +46,21 @@ a:visited {
 /* https://stackoverflow.com/questions/19695784/how-can-i-make-bootstrap-columns-all-the-same-height/22892773 */
 @media (min-width: 768px) {
   .row.equal {
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
     display: -webkit-flex;
-    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
 }
 
 .thumbnail {
     height: 95%;
-    box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5),
+    -webkit-box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5),
+                0px 8px 13px rgba(0, 0, 0, 0.2),
+                0px 18px 23px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5),
                 0px 8px 13px rgba(0, 0, 0, 0.2),
                 0px 18px 23px rgba(0, 0, 0, 0.2);
 }
@@ -71,7 +77,10 @@ a:visited {
     background: rgba(255, 255, 255, 0.7);
     border: 1px solid #888888;
     border-radius: 30px;
-    box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5),
+    -webkit-box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5),
+                0px 8px 13px rgba(0, 0, 0, 0.2),
+                0px 18px 23px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5),
                 0px 8px 13px rgba(0, 0, 0, 0.2),
                 0px 18px 23px rgba(0, 0, 0, 0.2);
 }
@@ -146,7 +155,10 @@ hr.hrlight {
 }
 
 #term-out {
-    box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5),
+    -webkit-box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5),
+                0px 8px 13px rgba(0, 0, 0, 0.2),
+                0px 18px 23px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5),
                 0px 8px 13px rgba(0, 0, 0, 0.2),
                 0px 18px 23px rgba(0, 0, 0, 0.2);
     margin: 0 auto;
