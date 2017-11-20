@@ -1,3 +1,5 @@
+/* TODO: refactor repeated box-shadow's into box-shadow class */
+
 html {
     height: 100%;
 }
@@ -118,6 +120,12 @@ a:visited {
 .jumbotron {
     margin-top: 10%;
     background: rgba(255, 255, 255, 0.7);
+    -webkit-box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5),
+                0px 8px 13px rgba(0, 0, 0, 0.2),
+                0px 18px 23px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5),
+                0px 8px 13px rgba(0, 0, 0, 0.2),
+                0px 18px 23px rgba(0, 0, 0, 0.2);
 }
 
 .thumbnail {
