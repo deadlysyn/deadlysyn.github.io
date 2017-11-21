@@ -112,7 +112,8 @@ a:visited {
 }
 
 .quote-r {
-    width: 30px;
+    /*width: 30px;*/
+    width: auto;
     text-align: center;
     float: left;
 }
@@ -152,6 +153,7 @@ hr.hrdark {
     border-bottom: 2px solid rgba(255, 255, 255, 0.2);
     margin-top: 30px;
     margin-bottom: 30px;
+    clear: both;
 }
 
 hr.hrlight {
@@ -160,6 +162,7 @@ hr.hrlight {
     border-bottom: 2px solid rgba(0, 0, 0, 0.2);
     margin-top: 30px;
     margin-bottom: 30px;
+    clear: both;
 }
 
 #term-out {
