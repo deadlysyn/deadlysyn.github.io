@@ -9,7 +9,7 @@ title:               'DeadlySyn Blog'
 tagline:             'Vain bablings and science falsely so called'
 description:         'DevOps, space travel, automobiles, gadgets and politics (God Forbid!)'
 url:                 http://deadlysyn.github.io
-baseurl:             '/blog'
+baseurl:             '/blog/'
 paginate:            5
 
 # About/contact
