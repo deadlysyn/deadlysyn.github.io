@@ -7,7 +7,7 @@ relative_permalinks: true
 # Setup
 title:               'DeadlySyn Blog'
 tagline:             'Vain bablings and science falsely so called'
-description:         'DevOps, space travel, automobiles, gadgets and politics (God Forbid!)'
+description:         'Strong opinions, weakly held.'
 url:                 http://deadlysyn.github.io
 baseurl:             '/blog/'
 paginate:            5
