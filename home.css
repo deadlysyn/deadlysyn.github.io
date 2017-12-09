@@ -57,9 +57,10 @@ a:visited {
   }
 }
 
-.navbar-brand img {
-    width: 1.5em;
-    height: 1.5em;
+#max {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 40px;
 }
 
 .thumbnail img {
@@ -79,7 +80,7 @@ a:visited {
 }
 
 .hometext {
-    padding-top: 20%;
+    padding-top: 15%;
     position: relative;
     text-align: center;
 }
