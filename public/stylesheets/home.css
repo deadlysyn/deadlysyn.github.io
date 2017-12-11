@@ -36,6 +36,10 @@ a {
     text-decoration: none;
 }
 
+a:hover {
+    color: #888888;
+    text-decoration: none;
+}
 
 /* https://stackoverflow.com/questions/19695784/how-can-i-make-bootstrap-columns-all-the-same-height/22892773 */
 @media (min-width: 768px) {
