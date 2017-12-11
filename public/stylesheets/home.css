@@ -10,7 +10,7 @@ body.home {
     background-position: center;
     background-attachment: fixed;
     color: #ffffff;
-    font-family: 'Hack', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body.about {
@@ -19,7 +19,7 @@ body.about {
     background-position: center;
     background-attachment: fixed;
     color: #ffffff;
-    font-family: 'Hack', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 body.projects {
@@ -28,7 +28,7 @@ body.projects {
     background-position: center;
     background-attachment: fixed;
     color: #ffffff;
-    font-family: 'Hack', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 a {
