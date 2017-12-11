@@ -1,0 +1,210 @@
+/* TODO: refactor repeated box-shadow's into box-shadow class */
+
+html {
+    height: 100%;
+}
+
+body.home {
+    background: url(./assets/bgHome-small.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #ffffff;
+    font-family: 'Hack', sans-serif;
+}
+
+body.about {
+    background: url(./assets/bgAbout-small.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #ffffff;
+    font-family: 'Hack', sans-serif;
+}
+
+body.projects {
+    background: url(./assets/bgProjects-small.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #ffffff;
+    font-family: 'Hack', sans-serif;
+}
+
+a {
+    color: #008800;
+}
+
+a:hover {
+    background-color: #000000;
+    color: #008800;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #008800;
+}
+
+/* https://stackoverflow.com/questions/19695784/how-can-i-make-bootstrap-columns-all-the-same-height/22892773 */
+@media (min-width: 768px) {
+  .row.equal {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    display: -webkit-flex;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+}
+
+#max {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 40px;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.thumbnail {
+    background: rgba(255, 255, 255, 0.7);
+    padding: 0;
+    height: 95%;
+    -webkit-box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5),
+                0px 8px 13px rgba(0, 0, 0, 0.2),
+                0px 18px 23px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5),
+                0px 8px 13px rgba(0, 0, 0, 0.2),
+                0px 18px 23px rgba(0, 0, 0, 0.2);
+}
+
+.hometext {
+    padding-top: 15%;
+    position: relative;
+    text-align: center;
+}
+
+.outerbox {
+    /*margin: 10%;*/
+    margin: 80px;
+    background: rgba(255, 255, 255, 0.7);
+    border: 1px solid #888888;
+    border-radius: 30px;
+    -webkit-box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5),
+                0px 8px 13px rgba(0, 0, 0, 0.2),
+                0px 18px 23px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5),
+                0px 8px 13px rgba(0, 0, 0, 0.2),
+                0px 18px 23px rgba(0, 0, 0, 0.2);
+}
+
+.innerbox {
+    margin: 40px;
+    color: #000000;
+    font-size: 1.2em;
+}
+
+.quote-o {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.quote-l {
+    width: 30px;
+    text-align: center;
+    float: left;
+    /*margin-left: 5%;*/
+}
+
+.quote-m {
+    width: 80%;
+    text-align: justify;
+    float: left;
+}
+
+.quote-r {
+    width: 30px;
+    text-align: center;
+    float: left;
+}
+
+.jumbotron {
+    margin-top: 10%;
+    background: rgba(255, 255, 255, 0.7);
+    -webkit-box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5),
+                0px 8px 13px rgba(0, 0, 0, 0.2),
+                0px 18px 23px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5),
+                0px 8px 13px rgba(0, 0, 0, 0.2),
+                0px 18px 23px rgba(0, 0, 0, 0.2);
+}
+
+.shadow {
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5),
+                 0px 8px 13px rgba(0, 0, 0, 0.2),
+                 0px 18px 23px rgba(0, 0, 0, 0.2);
+}
+
+h3 {
+    font-size: 1.8em;
+}
+
+.spaceafter {
+    margin-bottom: 20px;
+}
+
+hr.hrdark {
+    width: 300px;
+    border-top: 1px solid #848484;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    clear: both;
+}
+
+hr.hrlight {
+    width: 300px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    margin-top: 30px;
+    margin-bottom: 30px;
+    clear: both;
+}
+
+#term-out {
+    -webkit-box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5),
+                0px 8px 13px rgba(0, 0, 0, 0.2),
+                0px 18px 23px rgba(0, 0, 0, 0.2);
+            box-shadow: 0px 4px 3px rgba(0, 0, 0, 0.5),
+                0px 8px 13px rgba(0, 0, 0, 0.2),
+                0px 18px 23px rgba(0, 0, 0, 0.2);
+    margin: 0 auto;
+    width: 400px;
+    height: 200px;
+}
+
+#term-bar {
+    background-color: rgba(253, 246, 227, 1.0);
+    border-radius: 7px 7px 0 0;
+    color: rgb(0, 43, 54);
+    height: 30px;
+    padding: 5px;
+    text-align: left;
+}
+
+#term-buttons {
+    width: 150px;
+    float: left;
+}
+
+#term-win {
+    background-color: rgba(0, 43, 54, 0.9);
+    /* BUGGY:
+    border-radius: 0 0 5px 5px; */
+    color: rgb(147, 161, 161);
+    font-family: 'Inconsolata', monospace;
+    height: 170px;
+    padding: 5px;
+    text-align: left;
+}
