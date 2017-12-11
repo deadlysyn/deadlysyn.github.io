@@ -58,8 +58,8 @@ a:visited {
 }
 
 #max {
-    height: 200px;
-    width: 200px;
+    height: 185px;
+    width: 185px;
     margin-bottom: 40px;
 }
 
@@ -80,7 +80,7 @@ a:visited {
 }
 
 .hometext {
-    padding-top: 15%;
+    padding-top: 200px;
     position: relative;
     text-align: center;
 }
