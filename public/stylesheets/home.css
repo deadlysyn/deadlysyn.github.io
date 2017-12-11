@@ -50,13 +50,17 @@ a:hover {
                  0px 18px 23px rgba(0, 0, 0, 0.2);
 }
 
+#hometext {
+    padding-top: 180px;
+    position: relative;
+    text-align: center;
+}
 
 #max {
     height: 175px;
     width: 175px;
     padding: 0;
     border: 0;
-    margin-bottom: 40px;
 }
 
 .thumbnail img {
@@ -68,12 +72,6 @@ a:hover {
     border: 0;
     padding: 0;
     height: 95%;
-}
-
-.hometext {
-    padding-top: 180px;
-    position: relative;
-    text-align: center;
 }
 
 .content {
