@@ -5,28 +5,39 @@ html {
 }
 
 body.home {
-    background: url(/media/bgHome-small.jpg);
+    /*background: url(/media/bgHome-small.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    */
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
 }
 
 body.about {
+    /*
     background: url(/media/bgAbout-small.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    */
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
 }
 
 body.projects {
+    /*
     background: url(/media/bgProjects-small.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+    */
+    background: #141E30;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #243B55, #141E30);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #243B55, #141E30); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     color: #ffffff;
     font-family: 'Open Sans', sans-serif;
 }
