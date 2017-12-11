@@ -1,74 +1,24 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <!-- Background Photo: Kevin Bhagat on Unsplash -->
-        <!-- Wallpaper Credit: Alex Rodriguez -->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>DevOps Zen</title>
-        <link rel="shortcut icon" type="image/png" href="/favicon.ico">
-        <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.min.css">
-        <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.min.css">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:400,700">
-        <link rel="stylesheet" href="home.css">
-    </head>
-    <body class="home">
+---
+---
+{% include header.html %}
 
-        <nav class="navbar navbar-default navbar-fixed-top">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false">
-                        <span class="sr-only">Toggle navigation</span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                        <span class="icon-bar"></span>
-                    </button>
-                    <a href="index.html" class="navbar-brand"><i class="fa fa-cog fa-fw fa-spin" aria-hidden="true"></i></a>
-                </div>
-                <div class="collapse navbar-collapse" id="bs-nav-demo">
-                    <ul class="nav navbar-nav navbar-right">
-                        <li><a href="about.html">About <i class="fa fa-fw fa-info-circle"></i></a></li>
-                        <li><a href="projects.html">Projects <i class="fa fa-fw fa-flask"></i></a></li>
-                        <li><a href="/blog">Blog <i class="fa fa-fw fa-file-text"></i></a></li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
+<body class="home">
 
-        <div class="container">
-            <div class="row">
-                <div class="col-xs-12">
-                    <div class="hometext">
+{% include nav.html %}
 
-                        <img class="img-circle img-responsive center-block" id="max" alt="Picture of Max Headroom" src="assets/headromFront.jpg">
-
-                        <!--
-                        <div id="term-out">
-                            <div id="term-bar">
-                                <div id="term-buttons"><i class="fa fa-times-circle"></i> <i class="fa fa-minus-circle"></i> <i class="fa fa-plus-circle"></i></div>
-                                <div id="term-title">neo@calculon:~</div>
-                            </div>
-                            <div id="term-win">
-                                $ python -c 'print("Hello World!")'<br>
-                                Hello World!<br>
-                                $ cat about.me<br>
-                                DevOps Practitioner. UNIX Geek.<br>
-                                Security Advocate. Lifetime Learner.<br>
-                                $ _
-                            </div>
-                        </div>
-
-                        <hr class="hrlight">
-                        -->
-
-                        <a href="https://www.linkedin.com/in/mikehoskins"><button class="btn btn-lg btn-primary"><i class="fa fa-fw fa-linkedin" aria-hidden="true"></i></button></a>
-                        <a href="https://github.com/deadlysyn"><button class="btn btn-lg btn-primary"><i class="fa fa-fw fa-github"></i></button></a>
-                        <a href="mailto:unixdoes@gmail.com"><button class="btn btn-lg btn-primary"><i class="fa fa-fw fa-envelope"></i></button></a>
-                    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12">
+                <div class="hometext">
+                    <img class="img-circle img-responsive center-block" id="max" alt="Picture of Max Headroom" src="assets/headromFront.jpg">
+                    <hr class="hrlight">
+                    <!--<a href="https://www.linkedin.com/in/mikehoskins"><button class="btn btn-lg btn-primary"><i class="fa fa-fw fa-linkedin" aria-hidden="true"></i></button></a>-->
+                    <a class="btn btn-lg btn-primary" href="https://www.linkedin.com/in/mikehoskins"><i class="fa fa-fw fa-linkedin"></i></a>
+                    <a href="https://github.com/deadlysyn"><button class="btn btn-lg btn-primary"><i class="fa fa-fw fa-github"></i></button></a>
+                    <a href="mailto:unixdoes@gmail.com"><button class="btn btn-lg btn-primary"><i class="fa fa-fw fa-envelope"></i></button></a>
                 </div>
             </div>
         </div>
+    </div>
 
-        <script src="lib/jquery-3.2.1.min.js"></script>
-        <script src="lib/bootstrap/js/bootstrap.min.js"></script>
-    </body>
-</html>
+{% include footer.html %}
