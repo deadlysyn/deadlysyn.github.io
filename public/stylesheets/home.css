@@ -5,7 +5,7 @@ html {
 }
 
 body.home {
-    background: url(media/bgHome-small.jpg);
+    background: url(/media/bgHome-small.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -14,7 +14,7 @@ body.home {
 }
 
 body.about {
-    background: url(media/bgAbout-small.jpg);
+    background: url(/media/bgAbout-small.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -23,7 +23,7 @@ body.about {
 }
 
 body.projects {
-    background: url(media/bgProjects-small.jpg);
+    background: url(/media/bgProjects-small.jpg);
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
