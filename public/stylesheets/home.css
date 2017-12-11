@@ -58,8 +58,10 @@ a:visited {
 }
 
 #max {
-    height: 185px;
-    width: 185px;
+    height: 175px;
+    width: 175px;
+    padding: 0;
+    border: 1px solid #000000;
     margin-bottom: 40px;
 }
 
@@ -80,13 +82,12 @@ a:visited {
 }
 
 .hometext {
-    padding-top: 200px;
+    padding-top: 180px;
     position: relative;
     text-align: center;
 }
 
 .outerbox {
-    /*margin: 10%;*/
     margin: 80px;
     background: rgba(255, 255, 255, 0.7);
     border: 1px solid #888888;
@@ -114,7 +115,6 @@ a:visited {
     width: 30px;
     text-align: center;
     float: left;
-    /*margin-left: 5%;*/
 }
 
 .quote-m {
