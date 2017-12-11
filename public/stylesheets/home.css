@@ -21,6 +21,19 @@ a:hover {
     text-decoration: none;
 }
 
+#hometext {
+    padding-top: 180px;
+    position: relative;
+    text-align: center;
+}
+
+#max {
+    height: 175px;
+    width: 175px;
+    padding: 0;
+    border: 0;
+}
+
 /* https://stackoverflow.com/questions/19695784/how-can-i-make-bootstrap-columns-all-the-same-height/22892773 */
 @media (min-width: 768px) {
   .row.equal {
@@ -48,24 +61,11 @@ a:hover {
                  0px 18px 23px rgba(0, 0, 0, 0.2);
 }
 
-#hometext {
-    padding-top: 180px;
-    position: relative;
-    text-align: center;
-}
-
-#max {
-    height: 175px;
-    width: 175px;
-    padding: 0;
-    border: 0;
-}
-
-.thumbnail img {
+.card img {
     width: 100%;
 }
 
-.thumbnail {
+.card {
     background: rgba(255, 255, 255, 0.6);
     border: 0;
     padding: 0;
