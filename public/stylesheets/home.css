@@ -68,7 +68,8 @@ a:hover {
 */
 
 .row {
-    margin-bottom: 20px;
+    margin-bottom: 15px;
+    margin-top: 15px;
 }
 
 .card {
