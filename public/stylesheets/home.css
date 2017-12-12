@@ -85,7 +85,7 @@ a:hover {
     border: 0;
     border-radius: 5px;
     color: #000000;
-    font-size: 1.0em;
+    font-size: 1.1em;
     margin-bottom: 2.0em;
     margin-top: 80px;
     padding: 2.0em;
@@ -96,6 +96,7 @@ a:hover {
     padding: 0;
     width: 100%;
     border: 1px solid red;
+    overflow: hidden;
 }
 
 .quote-l {
