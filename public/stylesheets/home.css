@@ -62,21 +62,17 @@ a:hover {
 }
 
 /*
-.card img {
-    width: 100%;
-}
-*/
-
 .row {
     padding-bottom: 15px;
     padding-top: 15px;
 }
+*/
 
 .card {
     background: rgba(255, 255, 255, 0.7);
     border: 0;
     color: #000000;
-    padding: 0;
+    padding: 15px 0;
     height: 100%;
 }
 
