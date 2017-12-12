@@ -68,7 +68,7 @@ a:hover {
 */
 
 .row {
-    gutter: 2.0em;
+    margin-bottom: 20px;
 }
 
 .card {
