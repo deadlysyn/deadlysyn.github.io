@@ -79,11 +79,11 @@ a:hover {
     border: 0;
     border-radius: 5px;
     color: #000000;
-    font-size: 1.0em;
+    /*font-size: 1.0em;*/
     margin-bottom: 2.0em;
-    margin-left: 2.0em;
-    margin-right: 2.0em;
-    margin-top: 70px;
+    /*margin-left: 2.0em;
+    margin-right: 2.0em;*/
+    margin-top: 75px;
     padding: 2.0em;
 }
 
@@ -113,7 +113,7 @@ a:hover {
 }
 
 .jumbotron {
-    margin-top: 70px;
+    margin-top: 75px;
     background: rgba(255, 255, 255, 0.7);
 }
 
