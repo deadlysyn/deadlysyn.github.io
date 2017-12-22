@@ -78,11 +78,11 @@ a:hover {
 }
 
 .content {
-    background: rgba(255, 255, 255, 0.5);
+    background: rgba(0, 0, 0, 0.4);
     border: 1px solid #888888;
     border-radius: 5px;
-    color: #000000;
-    font-size: 1.1em;
+    color: #dedede;
+    /*font-size: 1.1em;*/
     margin-bottom: 2.0em;
     margin-top: 75px;
     padding: 2.0em;
