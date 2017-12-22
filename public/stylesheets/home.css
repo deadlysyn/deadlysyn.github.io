@@ -126,25 +126,7 @@ h3 {
     margin-bottom: 20px;
 }
 
-.hr-dark {
-    border-bottom: 2px solid rgba(255, 255, 255, 0.2);
-    border-top: 1px solid #848484;
-    clear: both;
-    margin-bottom: 40px;
-    margin-top: 40px;
-    width: 300px;
-}
-
-.hr-light {
-    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
-    border-top: 1px solid #f8f8f8;
-    clear: both;
-    margin-bottom: 40px;
-    margin-top: 40px;
-    width: 300px;
-}
-
-.hr-fade {
+hr.fade {
     background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
     z-index: 255;
     border: 0;
