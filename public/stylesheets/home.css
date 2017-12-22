@@ -84,8 +84,8 @@ a:hover {
     color: #000000;
     font-size: 1.0em;
     margin-bottom: 2.0em;
-    margin-left: 2.0em;
-    margin-right: 2.0em;
+    /*margin-left: 2.0em;
+    margin-right: 2.0em;*/
     margin-top: 75px;
     padding: 2.0em;
 }
