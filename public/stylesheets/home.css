@@ -137,7 +137,6 @@ h3 {
     color: rgba(255, 255, 255, 0.5);
 }
 
-/* projects page logo */
-.div.jumbotron h1.display-3 {
+.projects-title {
     color: rgba(255, 255, 255, 0.5);
 }
