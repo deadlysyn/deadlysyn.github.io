@@ -132,6 +132,12 @@ h3 {
     width: 300px;
 }
 
+/* navbar logo */
 .fa-cog {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+/* projects page logo */
+.div.jumbotron h1 {
     color: rgba(255, 255, 255, 0.5);
 }
