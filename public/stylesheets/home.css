@@ -110,6 +110,7 @@ a:hover {
 }
 
 .jumbotron {
+    border: 1px solid #888888;
     margin-top: 75px;
     background: rgba(255, 255, 255, 0.5);
 }
