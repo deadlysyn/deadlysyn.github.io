@@ -86,7 +86,7 @@ a:hover {
 
 .quote {
     margin: 1em auto;
-    /*overflow: hidden;*/
+    overflow: hidden;
     padding: 0;
     text-align: justify;
     width: 70%;
