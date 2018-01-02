@@ -85,28 +85,11 @@ a:hover {
 }
 
 .quote {
-    margin: 0 auto;
+    margin: 1em auto;
+    /*overflow: hidden;*/
     padding: 0;
-    width: 75%;
-    overflow: hidden;
-}
-
-.quote-l {
-    width: 30px;
-    text-align: center;
-    float: left;
-}
-
-.quote-m {
-    width: 80%;
     text-align: justify;
-    float: left;
-}
-
-.quote-r {
-    width: 30px;
-    text-align: center;
-    float: left;
+    width: 75%;
 }
 
 .jumbotron {
