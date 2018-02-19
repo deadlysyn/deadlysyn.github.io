@@ -1,115 +1,87 @@
----
----
-{% include header.html %}
-{% include nav.html %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="description" content="Automation, CI/CD, cloud infrastructure, DevOps, full stack development, monitoring, SRE"/>
+        <title>DeadlySYN Labs : Projects</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Source+Code+Pro:400,700"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css"/>
+        <link rel="stylesheet" href="public/css/style.css"/>
+    </head>
+    <body>
+        <header>
+            <h2><a href="/"><i class="fas fa-terminal text-shadow"></i></a></h2>
+            <nav class="text-shadow">
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="/blog">Blog</a></li>
+            </nav>
+        </header>
 
-<div class="container">
-    <div class="jumbotron box-shadow">
-        <h1 class="display-3 text-shadow spaceafter"><span id="title"><i class="fa fa-flask"></i> The Lab</span></h1>
-        <p class="lead">Artifacts of a continuously learning mind...</p>
-        <hr class="hr-fade">
-        <p><a class="btn btn-outline-dark" href="http://github.com/deadlysyn">Browse on GitHub</a></p>
-    </div>
-    <div class="row equal">
-
-        <div class="col-sm-12 col-md-4">
-            <div class="card box-shadow">
-                <img class="card-img-top" alt="Screenshot of ChowChow" src="media/chowchow.jpg">
-                <div class="card-body">
-                    <h4 class="card-title">ChowChow Webapp</h4>
-                    <p>Randomly-inspired responsive webapp built using <a href="http://nodejs.org">Node.js</a> and <a href="http://expressjs.com">Express</a>. Uses <a href="http://developer.mozilla.org/en-US/docs/Web/API/Geolocation">geolocation</a> and integrates with <a href="http://www.yelp.com/developers/documentation">Yelp's API</a> to find food fast.</p>
-                    <a class="btn btn-outline-dark" href="http://github.com/deadlysyn/chowchow">GitHub Repo</a>
-                </div>
+        <section class="top">
+            <div class="background-image" style="background-image: url(media/lights.jpg);"></div>
+            <div class="top-content">
+                <h1 class="text-shadow">Projects</h1>
+                <h3 class="text-shadow">Experiment. Learn. Repeat.</h3>
+                <i class="fas fa-flask fa-3x text-shadow"></i>
             </div>
-        </div>
+        </section>
 
-        <div class="col-sm-12 col-md-4">
-            <div class="card box-shadow">
-                <img class="card-img-top" alt="Screenshot of Splash Page" src="media/landingpage.jpg">
-                <div class="card-body">
-                    <h4 class="card-title">Landing Page</h4>
-                    <p>Simple landing page built during <a href="http://www.udemy.com/the-advanced-web-developer-bootcamp">Colt Steele's Advanced Web Developer Bootcamp</a>. Achieves a crisp and responsive design courtesy of <a href="http://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5">HTML5 markup</a>, <a href="http://css-tricks.com/snippets/css/a-guide-to-flexbox">Flexbox</a>, and <a href="http://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries">CSS media queries</a>. Placeholder images courtesy of <a href="http://unsplash.com">Unsplash</a>, with <a href="http://fontawesome.com">Font Awesome</a> icons.</p>
-                    <a class="btn btn-outline-dark" href="http://github.com/deadlysyn/fullstackbootcamp-advanced/tree/master/startupsite">GitHub Repo</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-sm-12 col-md-4">
-            <div class="card box-shadow">
-                <img class="card-img-top" alt="Screenshot of YelpCamp" src="media/yelpcamp.jpg">
-                <div class="card-body">
-                    <h4 class="card-title">Yelp Clone</h4>
-                    <p>Final project in <a href="http://www.udemy.com/the-web-developer-bootcamp">Colt Steele's Web Development Bootcamp</a>: a Yelp-like service where you share and review campgrounds. Lots of practice with <a href="http://nodejs.org">Node.js</a>, <a href="http://expressjs.com">Express</a>, and <a href="http://www.mongodb.com">MongoDB</a>. Used <a href="http://www.passportjs.org">Passport</a> for authentication and session management, and <a href="https://github.com/jaredhanson/connect-flash">connect-flash</a> for user feedback.</p>
-                    <a class="btn btn-outline-dark" href="http://github.com/deadlysyn/fullstackbootcamp/tree/master/final">GitHub Repo</a>
-                </div>
-            </div>
-        </div>
-
-    </div>
-    <div class="row equal">
-
-        <div class="col-sm-12 col-md-4">
-            <div class="card box-shadow">
-                <img class="card-img-top" alt="Screenshot of ReSTful Blog" src="media/miniblog.jpg">
-                <div class="card-body">
-                    <h4 class="card-title">ReSTful Blog</h4>
-                    <p>Blog prototype built atop <a href="http://nodejs.org">Node.js</a>, <a href="http://expressjs.com">Express</a>, <a href="http://www.mongodb.com">MongoDB</a>, and <a href="http://mongoosejs.com">Mongoose</a>. Test drives a new JS framework, <a href="http://semantic-ui.com">Semantic UI</a>. Academic exercise to practice implementing web services adhering to <a href="http://github.com/deadlysyn/fullstackbootcamp/blob/master/miniblog/README.md">ReSTful best practices</a>.</p>
-                    <a class="btn btn-outline-dark" href="http://github.com/deadlysyn/fullstackbootcamp/tree/master/miniblog">GitHub Repo</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-sm-12 col-md-4">
-            <div class="card box-shadow">
-                <img class="card-img-top" alt="Screenshot of CircleTap" src="media/circleTap.jpg"></a>
-                <div class="card-body">
-                    <h4 class="card-title">Circle Tap</h4>
+        <section class="experiments">
+            <h3 class="title text-shadow">Experiments</h3>
+            <hr>
+            <ul class="grid">
+                <li>
+                    <a href="http://github.com/deadlysyn/chowchow"><img class="img-circle box-shadow" src="media/chowchow.jpg"></a>
+                    <h4>ChowChow</h4>
+                    <p>Responsive web app built with <a href="http://nodejs.org">Node.js</a> and <a href="http://expressjs.com">Express</a>. Uses <a href="http://developer.mozilla.org/en-US/docs/Web/API/Geolocation">geolocation</a> and integrates with <a href="http://www.yelp.com/developers/documentation">Yelp's Fusion API</a> to find food fast(er).</p>
+                </li>
+                <li>
+                    <a href="http://github.com/deadlysyn/fullstackbootcamp-advanced/tree/master/startupsite"><img class="img-circle box-shadow" src="media/landingpage.jpg"></a>
+                    <h4>Landing Page</h4>
+                    <p>This landing page template is crisp and responsive courtesy of <a href="http://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5">HTML5</a>, <a href="http://css-tricks.com/snippets/css/a-guide-to-flexbox">Flexbox</a>, and <a href="http://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries">CSS media queries</a>.</p>
+                </li>
+                <li>
+                    <a href="http://github.com/deadlysyn/fullstackbootcamp/tree/master/final"><img class="img-circle box-shadow" src="media/yelpcamp.jpg"></a>
+                    <h4>YelpCamp</h4>
+                    <p>Yelp clone where you share and review campgrounds. Practice with <a href="http://nodejs.org">Node.js</a>, <a href="http://expressjs.com">Express</a>, <a href="http://www.mongodb.com">MongoDB</a>, and <a href="http://www.passportjs.org">Passport.js</a>.
+                </li>
+                <li>
+                    <a href="http://github.com/deadlysyn/fullstackbootcamp/tree/master/miniblog"><img class="img-circle box-shadow" src="media/miniblog.jpg"></a>
+                    <h4>ReSTful Blog</h4>
+                    <p>Blog prototype built on <a href="http://nodejs.org">Node.js</a>, <a href="http://expressjs.com">Express</a>, <a href="http://www.mongodb.com">MongoDB</a>, and <a href="http://mongoosejs.com">Mongoose</a>. Test drives <a href="http://semantic-ui.com">Semantic UI</a>, and adheres to <a href="http://github.com/deadlysyn/fullstackbootcamp/blob/master/miniblog/README.md">ReSTful best practices</a>.</p>
+                </li>
+                <li>
+                    <a href="http://github.com/deadlysyn/fullstackbootcamp/tree/master/patatapclone"><img class="img-circle box-shadow" src="media/circleTap.jpg"></a>
+                    <h4>CircleTap</h4>
                     <p><a href="http://patatap.com">Patatap</a> clone leveraging the amazing <a href="http://paperjs.org">Paper.js</a> and <a href="http://howlerjs.com">Howler.js</a> libraries to create a dance party in your browser.</p>
-                    <a class="btn btn-outline-dark" href="http://github.com/deadlysyn/fullstackbootcamp/tree/master/patatapclone">GitHub Repo</a>
-                </div>
-            </div>
-        </div>
+                </li>
+                <li>
+                    <a href="http://github.com/deadlysyn/fullstackbootcamp/tree/master/todolist"><img class="img-circle box-shadow" src="media/todos.jpg"></a>
+                    <h4>To-Do List</h4>
+                    <p>Everyone makes a to-do app... this one's a <a href="https://jquery.com">jQuery</a> experiment.</p>
+                </li>
+                <li>
+                    <a href="http://github.com/deadlysyn/fullstackbootcamp/tree/master/midterm"><img class="img-circle box-shadow" src="media/colorGame.jpg"></a>
+                    <h4>Color Game</h4>
+                    <p>Generates a grid of random colors, and let's users try to guess the RGB value. Pure HTML, CSS and Javascript.</p>
+                </li>
+                <li>
+                    <a href="http://github.com/deadlysyn/deadlysyn.github.io"><img class="img-circle box-shadow" src="media/deadlysyn.jpg"></a>
+                    <h4>DeadlySyn Website</h4>
+                    <p>You're looking at it... The usual suspects: HTML, CSS and Javascript. Originally built using <a href="http://getbootstrap.com">Bootstrap 4</a>, but continues to evolve!</p>
+                </li>
+            </ul>
+        </section>
 
-        <div class="col-sm-12 col-md-4">
-            <div class="card box-shadow">
-                <img class="card-img-top" alt="Screenshot of jQuery To-Do List" src="media/todos.jpg">
-                <div class="card-body">
-                    <h4 class="card-title">To-Do List</h4>
-                    <p>Experimenting with jQuery by building a simple to-do list. I tend to prefer pure JavaScript, but it's amazing how much you can accomplish with jQuery in so few lines of code!</p>
-                    <a class="btn btn-outline-dark" href="http://github.com/deadlysyn/fullstackbootcamp/tree/master/todolist">GitHub Repo</a>
-                </div>
-            </div>
-        </div>
-
-
-    </div>
-
-    <div class="row equal">
-
-        <div class="col-sm-12 col-md-4">
-            <div class="card box-shadow">
-                <img class="card-img-top" alt="Screenshot of Color Guessing Game" src="media/colorGame.jpg">
-                <div class="card-body">
-                    <h4 class="card-title">Color Guessing Game</h4>
-                    <p>Mid-term project from <a href="http://www.udemy.com/the-web-developer-bootcamp">Colt Steele's Full-Stack Web Development Bootcamp</a>. Generates a grid of random colors, and let's users try and guess the RGB values. More practice with HTML, CSS and Javascript.</p>
-                    <a class="btn btn-outline-dark" href="http://github.com/deadlysyn/fullstackbootcamp/tree/master/midterm">GitHub Repo</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="col-sm-12 col-md-4">
-            <div class="card box-shadow">
-                <img class="card-img-top" alt="Screenshot of DeadlySyn.com" src="media/deadlysyn.jpg">
-                <div class="card-body">
-                    <h4 class="card-title">DeadlySyn Website</h4>
-                    <p>Yep, you're looking at it...  The usual suspects: HTML, CSS, Javascript (<a href="http://getbootstrap.com">Bootstrap 4</a>).</p>
-                    <a class="btn btn-outline-dark" href="http://github.com/deadlysyn/deadlysyn.github.io">GitHub Repo</a>
-                </div>
-            </div>
-        </div>
-
-    </div>
-
-</div>
-
-{% include footer.html %}
+        <footer>
+            <a href="https://creativecommons.org/licenses/by/4.0"><i class="fab fa-creative-commons fa-2x"></i></a>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/deadlysyn"><i class="fab fa-linkedin fa-2x"></i></a></li>
+                <li><a href="https://github.com/deadlysyn"><i class="fab fa-github-square fa-2x"></i></a></li>
+                <li><a href="https://medium.com/@deadlysyn"><i class="fab fa-medium fa-2x"></i></a></li>
+                <li><a href="mailto:mrh@deadlysyn.com"><i class="fas fa-envelope-square fa-2x"></i></a></li>
+            </ul>
+        </footer>
+    </body>
+</html>

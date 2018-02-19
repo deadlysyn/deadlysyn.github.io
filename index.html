@@ -1,21 +1,87 @@
----
----
-{% include header.html %}
-{% include nav.html %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1"/>
+        <meta name="description" content="Automation, CI/CD, cloud infrastructure, DevOps, full stack development, monitoring, SRE"/>
+        <title>DeadlySYN Labs</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Source+Code+Pro:400,700"/>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css"/>
+        <link rel="stylesheet" href="public/css/style.css"/>
+    </head>
+    <body>
+        <header>
+            <a href="/"><i class="fas fa-terminal text-shadow"></i></a>
+            <nav class="text-shadow">
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="/blog">Blog</a></li>
+            </nav>
+        </header>
 
-<div class="container">
-    <div class="row">
-        <div class="col">
-            <div id="hometext">
-                <img class="rounded-circle img-fluid box-shadow" id="max" alt="Picture of Max Headroom" src="media/headromFront.jpg">
-                <hr class="hr-fade">
-                <a href="https://www.linkedin.com/in/deadlysyn"><button class="btn btn-lg btn-outline-dark"><i class="fa fa-fw fa-linkedin"></i></button></a>
-                <a href="https://github.com/deadlysyn"><button class="btn btn-lg btn-outline-dark"><i class="fa fa-fw fa-github"></i></button></a>
-                <a href="https://medium.com/@deadlysyn"><button class="btn btn-lg btn-outline-dark"><i class="fa fa-fw fa-medium"></i></button></a>
-                <a href="mailto:mrh@deadlysyn.com"><button class="btn btn-lg btn-outline-dark"><i class="fa fa-fw fa-envelope"></i></button></a>
+        <section class="top">
+            <div class="background-image" style="background-image: url(media/books.jpg);"></div>
+            <div class="top-content">
+                <img class="img-circle box-shadow" alt="Picture of Max Headroom" src="media/headromSmall.jpg" srcset="media/headromMedium.jpg 1000w, media/headromBig.jpg 2000w">
+                <h1 class="text-shadow">DeadlySYN Labs</h1>
+                <h3 class="text-shadow">Artifacts of continuous learning.</h3>
+                <i class="fas fa-chevron-circle-down fa-3x text-shadow"></i>
             </div>
-        </div>
-    </div>
-</div>
+        </section>
 
-{% include footer.html %}
+        <section class="about">
+            <h3 class="title text-shadow">About</h3>
+            <hr>
+            <p><em>DeadlySyn</em> is a play on the <a href="https://en.wikipedia.org/wiki/Seven_deadly_sins">seven deadly sins</a>; any one could endanger your mortal soul.  Similarly, as we've become used to hearing in the news, a single malformed packet can exploit <a href="https://en.wikipedia.org/wiki/Zero-day_(computing)">zero-day vulnerabilities</a> endangering sensitive data or critical infrastructure.</p>
+            <p>Security is a responsibility all developers share...  Building interfaces which expose surface area to user populations of varied intent requires we be ever vigilant!</p>
+        </section>
+
+        <section class="expertise">
+            <h3 class="title text-shadow">Expertise</h3>
+            <a class="btn" href="resume.pdf">Download Resume</a>
+            <hr>
+            <ul class="grid">
+                <li>
+                    <i class="fas fa-bullseye fa-4x text-shadow"></i>
+                    <h4>Agile</h4>
+                    <p>While one size does not fit all, we believe in the transformative power of Agile methods.</p>
+                </li>
+                <li>
+                    <i class="fas fa-cloud fa-4x text-shadow"></i>
+                    <h4>DevOps</h4>
+                    <p>We have decades of experience with automation, CI/CD, infrastructure, and monitoring at scale.</p>
+                </li>
+                <li>
+                    <i class="fas fa-cogs fa-4x text-shadow"></i>
+                    <h4>Development</h4>
+                    <p>From front to back, we cover the full stack. Our development expertise will help your ideas become reality.</p>
+                </li>
+                <li>
+                    <i class="fas fa-lock fa-4x text-shadow"></i>
+                    <h4>Security</h4>
+                    <p>We believe effective security must be part of everything we do, not just an afterthought.</p>
+                </li>
+            </ul>
+        </section>
+
+        <section class="philosophy">
+            <h3 class="title text-shadow">Philosophy</h3>
+            <hr>
+            <p class="quote">We are all apprentices in a craft where no one ever becomes a master.</p>
+            <p class="author">- Ernest Hemingway</p>
+            <p class="quote">The humblest tasks get beautified if loving hands do them.</p>
+            <p class="author">- Louisa May Alcott</p>
+            <p class="quote">Specialization is for insects.</p>
+            <p class="author">- Robert A. Heinlein</p>
+        </section>
+
+        <footer>
+            <a href="https://creativecommons.org/licenses/by/4.0"><i class="fab fa-creative-commons fa-2x"></i></a>
+            <ul>
+                <li><a href="https://www.linkedin.com/in/deadlysyn"><i class="fab fa-linkedin fa-2x"></i></a></li>
+                <li><a href="https://github.com/deadlysyn"><i class="fab fa-github-square fa-2x"></i></a></li>
+                <li><a href="https://medium.com/@deadlysyn"><i class="fab fa-medium fa-2x"></i></a></li>
+                <li><a href="mailto:mrh@deadlysyn.com"><i class="fas fa-envelope-square fa-2x"></i></a></li>
+            </ul>
+        </footer>
+    </body>
+</html>
