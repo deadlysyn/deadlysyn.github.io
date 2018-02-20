@@ -110,7 +110,7 @@ section h3.title {
 }
 
 section p {
-    max-width: 750px;
+    max-width: 700px;
     line-height: 2;
     padding: 0 20px;
     text-align: center;
@@ -238,7 +238,6 @@ header nav li {
 @media screen and (max-width: 800px) {
     .about p {
         font-size: 14px;
-        margin-top: 20px;
     }
 }
 
@@ -362,9 +361,6 @@ footer ul li {
         width: 150px;
         height: 150px;
     }
-    .experiments .grid li p {
-        padding: 0 50px;
-    }
 }
 
 @media screen and (max-width: 800px) {
@@ -374,6 +370,6 @@ footer ul li {
     }
     .experiments .grid li p {
         font-size: 14px;
-        padding: 0 30px;
+        padding: 0 40px;
     }
 }
