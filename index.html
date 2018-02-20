@@ -1,21 +1,6 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1"/>
-        <meta name="description" content="Automation, CI/CD, cloud infrastructure, DevOps, full stack development, monitoring, SRE"/>
-        <title>DeadlySYN Labs</title>
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css"/>
-        <link rel="stylesheet" href="public/css/style.css"/>
-    </head>
-    <body>
-        <header>
-            <a href="/"><i class="fas fa-terminal text-shadow"></i></a>
-            <nav class="text-shadow">
-                <li><a href="projects.html">Projects</a></li>
-                <li><a href="/blog">Blog</a></li>
-            </nav>
-        </header>
+---
+---
+{% include header.html %}
 
         <section class="top">
             <div class="background-image" style="background-image: url(media/books.jpg);"></div>
@@ -73,14 +58,4 @@
             <p class="author">- Robert A. Heinlein</p>
         </section>
 
-        <footer>
-            <a href="https://creativecommons.org/licenses/by/4.0"><i class="fab fa-creative-commons fa-2x"></i></a>
-            <ul>
-                <li><a href="https://www.linkedin.com/in/deadlysyn"><i class="fab fa-linkedin fa-2x"></i></a></li>
-                <li><a href="https://github.com/deadlysyn"><i class="fab fa-github-square fa-2x"></i></a></li>
-                <li><a href="https://medium.com/@deadlysyn"><i class="fab fa-medium fa-2x"></i></a></li>
-                <li><a href="mailto:mrh@deadlysyn.com"><i class="fas fa-envelope-square fa-2x"></i></a></li>
-            </ul>
-        </footer>
-    </body>
-</html>
+{% include footer.html %}
