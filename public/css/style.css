@@ -239,7 +239,13 @@ header nav {
     margin-right: -15px;
 }
 
+/*
 header nav li {
+    margin: 0 15px;
+    font-family: "Source Code Pro", monospace;
+}
+*/
+header nav a {
     margin: 0 15px;
     font-family: "Source Code Pro", monospace;
 }
