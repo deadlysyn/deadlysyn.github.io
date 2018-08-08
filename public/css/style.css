@@ -126,7 +126,7 @@ section a {
 }
 
 section h3.title {
-    text-transform: uppercase;
+    text-transform: capitalize;
     font-size: 2em;
     font-weight: 700;
     letter-spacing: 0.2rem;
@@ -194,7 +194,7 @@ header nav a {
     margin: 0 15px;
     font-weight: 700;
     letter-spacing: 0.2rem;
-    text-transform: capitalize;
+    text-transform: uppercase;
 }
 
 @media screen and (max-width: 800px) {
