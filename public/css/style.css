@@ -123,7 +123,7 @@ section a {
 
 section h3.title {
     text-transform: capitalize;
-    font: normal 32px "Source Code Pro", monospace;
+    font-size: 32px;
     text-align: center;
     color: #aa2524;
     margin-bottom: 30px;
@@ -236,7 +236,7 @@ header nav a {
 }
 
 .top h1 {
-    font: normal 48px "Source Code Pro", monospace;
+    font-size: 48px;
     margin-bottom: 15px;
 }
 
