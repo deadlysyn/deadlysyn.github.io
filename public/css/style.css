@@ -9,12 +9,15 @@
     padding: 0;
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
-    font-family: system-ui,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 }
 
 html {
-    font: normal 16px "Open Sans", sans-serif;
+    font-size: 16px;
     color: #343434;
+}
+
+body {
+    font-family: system-ui,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
 }
 
 hr {
@@ -49,7 +52,7 @@ a.btn {
     border: 1px solid #000;
     color: #343434;
     border-radius: 4px;
-    font: bold 10px "Open Sans", sans-serif;
+    font-size: 10px;
     text-transform: uppercase;
     text-align: center;
     padding: 10px;
@@ -226,17 +229,12 @@ header nav a {
 }
 
 .top img {
-    margin-bottom: 15px;
+    margin-bottom: 20px;
 }
 
 .top h1 {
     font-size: 3em;
-    margin-bottom: 15px;
-}
-
-.top h3 {
-    font: normal 24px "Open Sans", sans-serif;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 
 .top-content {
