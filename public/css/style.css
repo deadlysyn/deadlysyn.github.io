@@ -192,6 +192,9 @@ header nav {
 
 header nav a {
     margin: 0 15px;
+    font-weight: 700;
+    text-transform: capitalize;
+    letter-spacing: 0.2rem;
 }
 
 @media screen and (max-width: 800px) {
