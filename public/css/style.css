@@ -236,8 +236,9 @@ header nav a {
 }
 
 .top h1 {
-    font-size: 3em;
+    font-size: 2em;
     font-weidht: 400;
+    letter-spacing: 1px;
     margin-bottom: 20px;
 }
 
