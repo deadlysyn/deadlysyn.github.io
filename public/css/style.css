@@ -192,7 +192,6 @@ header nav li {
 */
 header nav a {
     margin: 0 15px;
-    font-family: "Source Code Pro", monospace;
 }
 
 @media screen and (max-width: 800px) {
