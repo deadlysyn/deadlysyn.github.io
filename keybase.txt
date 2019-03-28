@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/deadlysyn
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://deadlysyn.com
+  * I am deadlysyn (https://keybase.io/deadlysyn) on keybase.
+  * I have a public key ASB6q9sGTPJ0I7_yrgbJDEf7xGgO7qFSnS-vxV2jr3UWFwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01207aabdb064cf27423bff2ae06c90c47fbc4680eeea1529d2fafc55da3af7516170a",
+      "host": "keybase.io",
+      "kid": "01207aabdb064cf27423bff2ae06c90c47fbc4680eeea1529d2fafc55da3af7516170a",
+      "uid": "7afc1bce070be91f53f4da24b9197819",
+      "username": "deadlysyn"
+    },
+    "merkle_root": {
+      "ctime": 1553788268,
+      "hash": "18cf61fa84eb5f2028f3534e83e0dacc3440af02e577fbac48621c884d836cd747022667209ef92e610480a97ca43d8ace25774c0cfcdeaa8e0ddf42e215fee9",
+      "hash_meta": "91693cc4183625d85d10aa3c7b874170cddf87ebb24fe3e91ff31f95b92cbc3e",
+      "seqno": 5047611
+    },
+    "service": {
+      "entropy": "PRQcp8oi7Y++UYm6YTYS6gSI",
+      "hostname": "deadlysyn.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "3.1.2"
+  },
+  "ctime": 1553788276,
+  "expire_in": 504576000,
+  "prev": "131093aa92d6c950fda15431479a162557527ad613ffe70b542997ef9634385b",
+  "seqno": 5,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgeqvbBkzydCO/8q4GyQxH+8RoDu6hUp0vr8Vdo691FhcKp3BheWxvYWTESpcCBcQgExCTqpLWyVD9oVQxR5oWJVdSetYT/+cLVCmX75Y0OFvEIHm5UN7V5TyfyGDXqMHyWCW6FYMqcy2dWcJBwmaK99daAgHCo3NpZ8RAibO4tpSVrJpqcxaXn42u48PONKrNklLAecnLudxoU09M399iwJ0q3TtOLiaZ/x20MkTX8unPyB7NKwrpoc9zDahzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIIhIuyxr0XFq48BUM4yO7yJdn0Jrl6cs07m+2yB22c4Fo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/deadlysyn
+
+==================================================================
